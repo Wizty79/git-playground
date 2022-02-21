@@ -7,10 +7,10 @@ def isprime(n):
         else:
             return True
 
-def list_prime():
+def list_primes():
     for n in range(100):
-        if isprime():
+        if isprime(n):
             print(n, end=' ', flush=True)
     print()
 
-list_print()
+list_primes()
