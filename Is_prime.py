@@ -4,8 +4,8 @@ def isprime(n):
     for x in range(2, n):
         if n % x == 0:
             return False
-        else:
-            return True
+    else:
+        return True
 
 def list_primes():
     for n in range(100):
