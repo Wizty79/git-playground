@@ -10,8 +10,8 @@ def main():
     donald.quack()
     donald.walk()
 
-if  __name__ == '__main__': main() #with an if statement you can have the code on the same line as long as it's just oen line, normally this is bad practice, but this is the exception
-#__name__ will return the name of the current modul and '__main__' tells the code this is not an imported modul but running as the main fail.    
+if  __name__ == '__main__': main() #with an if statement you can have the code on the same line as long as it's just one line, normally this is bad practice, but this is the exception
+#__name__ will return the name of the current modul and '__main__' tells the code this is not an imported modul but running as the main file.    
 
 #below the function main calls the function kitten before it's defined, this is called forward declaration which Python don't support:
 #the if statement if __name__ =='__main__': main() is a common workaround for this.    
