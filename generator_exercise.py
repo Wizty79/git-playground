@@ -1,3 +1,10 @@
+#ex.
+#def main():
+#    for i in range(25):
+#        print(i, end = ' ')
+#    print()
+#if using this function instead of inclusive_range finction it will print fromv 0 to 24, where as this will 0 to 25 instead
+
 def main():
     for i in inclusive_range(25):
         print(i, end = ' ')
