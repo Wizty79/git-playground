@@ -1,8 +1,8 @@
-class animal:
-    def __init__(self, type, name, sound):
-        self._type = type
-        self._name = name
-        self._sound = sound
+class Animal:
+    def __init__(self, type, name, sound): #__init__ = class function that works like an constructor or initialiser
+        self._type = type                  # you pass it arguments, here 3(first is always self and don't count as part of the 3), and that's what makes it an object method
+        self._name = name                  #again, it's an object method because self poiints to the object  
+        self._sound = sound                # AND THOSE ARE USED TO INITIALISE OBJECT VARIABLES
 
     def type(self):
         return self._type
