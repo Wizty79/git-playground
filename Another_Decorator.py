@@ -18,5 +18,5 @@ def big_sum():
 def main():
     big_sum()
 
-    if __name__ == '__main__': main()
+if __name__ == '__main__': main()
     
