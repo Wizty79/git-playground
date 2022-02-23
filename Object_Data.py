@@ -10,8 +10,8 @@ class Animal:
         # The point is that the 3 object variables are incaplulated and thus immutable unlike the CV at the top (incaplusation are a major benifit of object oriented programming) 
 
     def type(self, t = None):
-        if t: self._type = t
-        return self._type
+        if t: self._type = t # you don't want to access the variables directly, that's why they have the underscore which means do not touch directly,    
+        return self._type    # so you don't set these variable from outside the classs methods, 
 
     def name(self, n = None):
         if n: self._name = n
