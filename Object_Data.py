@@ -9,12 +9,12 @@ class Animal:
         return self._type
 
     def name(self, n = None):
-        if n: self._name - n
-        return self.name
+        if n: self._name = n
+        return self._name
 
     def sound(self, s = None):
         if s: self._sound = s 
-        return self.sound 
+        return self._sound 
 
     def __str__(self):
         return f'The {self.type()} is named "{self.name()}" and says "{self.sound()}".'
