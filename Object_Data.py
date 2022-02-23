@@ -1,10 +1,13 @@
 class Animal:
+    x = [1, 2, 3] #this is a class variable, not OV like below, because it's defined in the calss, not in any method
     def __init__(self, **kwargs):
         self._type = kwargs['type'] if 'type' in kwargs else 'kitten'
         self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
         self._sound = kwargs['sound'] if 'sound' in kwargs else 'meow'
         #The 3 above are object variables, they only exist when the object is created from the class 
         # they do not exist in the class itself 
+
+        # The point is that the 3 object variables are incaplulated and thus immutable unlike the CV at the top (incaplusation are a major benifit of object oriented programming) 
 
     def type(self, t = None):
         if t: self._type = t
