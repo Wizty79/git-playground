@@ -1,8 +1,13 @@
+#Decorator
+#A form of meta programming, a type of function that returns a wrapper function
+
 def f1():
-    print('this is f1')
+    def f2():
+    print('this is f2')
+    return f2
 
-x = f1 
-x()
+def f3():
+    print('this is f3')
 
 
-#start over with decoratore lectur 
+
