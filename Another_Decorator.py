@@ -9,11 +9,11 @@ def elapsed_time(f):
     return wrapper
 
 @elapsed_time
-deg big_sum():
-nem_list = []
-for num in (range(0, 10000)):
-    num_list.append(num)
-print(f'Big sum: {sum(num_list)}')
+def big_sum():
+    num_list = []
+    for num in (range(0, 10000)):
+        num_list.append(num)
+    print(f'Big sum: {sum(num_list)}')
 
 def main():
     big_sum()
