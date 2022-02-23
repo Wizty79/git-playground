@@ -3,6 +3,8 @@ class Animal:
         self._type = kwargs['type'] if 'type' in kwargs else 'kitten'
         self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
         self._sound = kwargs['sound'] if 'sound' in kwargs else 'meow'
+        #The 3 above are object variables, they only exist when the object is created from the class 
+        # they do not exist in the class itself 
 
     def type(self, t = None):
         if t: self._type = t
