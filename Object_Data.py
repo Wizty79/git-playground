@@ -7,7 +7,7 @@ class Animal:
         #The 3 above are object variables, they only exist when the object is created from the class 
         # they do not exist in the class itself 
 
-        # The point is that the 3 object variables are incaplulated and thus immutable unlike the CV at the top (incaplusation are a major benifit of object oriented programming) 
+        # The point is that the 3 object variables are incapsulated and thus immutable unlike the CV at the top (incapsulation are a major benifit of object oriented programming) 
 
     def type(self, t = None):
         if t: self._type = t # you don't want to access the variables directly, that's why they have the underscore which means do not touch directly,    
