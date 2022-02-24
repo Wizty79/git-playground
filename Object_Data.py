@@ -1,6 +1,6 @@
 class Animal:
     x = [1, 2, 3] #this is a class variable, not OV like below, because it's defined in the calss, not in any method
-    def __init__(self, **kwargs):
+    def __init__(self, **kwargs):#No longer providing default values, as it's now a base class to be inherited in order to be used.
         self._type = kwargs['type'] if 'type' in kwargs else 'kitten'
         self._name = kwargs['name'] if 'name' in kwargs else 'fluffy'
         self._sound = kwargs['sound'] if 'sound' in kwargs else 'meow'
