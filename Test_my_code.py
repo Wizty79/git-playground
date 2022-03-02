@@ -10,7 +10,6 @@ def test_isupper():
 def test_split():
     s = 'hello world'
     assert s.split() == ['hello', 'world']
-    # check that s.split fails when the separator is not 
-a string
+    # check that s.split fails when the separator is not a string
     with pytest.raises(TypeError):
         s.split(2)
