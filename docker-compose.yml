@@ -1,0 +1,21 @@
+# Copy this into a file called `docker-compose.yml`
+version: "3"
+
+services:
+  cliapp:
+    image: chimera-cli
+    mount: 
+      -mount
+      type=volume,
+      source=webapp,
+      destination=/opt/chimera/data/
+
+
+  webapp:
+   image: chimera-cli
+   ports:
+   - "5000" 
+      
+
+volumes:
+  TODO: COMPLETE THIS   
