@@ -21,11 +21,9 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+print("Your mission is to find the treasure (and who knows what else, wink wink).")
 
-#Write your code below this line 👇
-
-choice1 = input('You\'re at a cross road. Where do you want to go? Type "left", "right" or straight ahead \n').lower()
+choice1 = input('You\'re at a cross road with no signs. Where do you want to go? Type "left", "right" or straight ahead \n').lower()
 if choice1 == "left":
   choice2 = input('You\'ve come to a glowing lake. There is an misty island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
   if choice2 == "wait":
@@ -35,7 +33,7 @@ if choice1 == "left":
     elif choice3 == "yellow":
       print("You found the treasure! But also a powerul spellbook! Your now an apprentice witch and more adventures awaite. You Win!")
     elif choice3 == "blue":
-      print("You enter a room of passionet wearwolfs. I'll leave the rest to your imagination. Game Over.")
+      print("You enter a room of passionet wearwolfs. I'll leave the rest to your imagination, wink wink. Game Over.")
     else:
       print("You chose a door that doesn't exist. Your now under a strange spell and stuck here forever. Game Over.")
   else:
@@ -43,6 +41,6 @@ if choice1 == "left":
 elif choice1 == "right":
     print("You fell into a hole and met a beautiful drow prince. You fell in love and live in his underground kingdom for 1000 years. Game Over.")
 else:
-    print("you met a cute satyr, fell in love and stayed in his forest forever! You are now magical and can frolic all day and night!")
+    print("you met a cute satyr, fell in love and stayed in his forest world forever! You are now magical and can frolic around all day and night!")
 
 
