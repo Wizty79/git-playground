@@ -27,7 +27,7 @@ print("Your mission is to find the treasure.")
 
 choice1 = input('You\'re at a cross road. Where do you want to go? Type "left", "right" or straight ahead \n').lower()
 if choice1 == "left":
-  choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
+  choice2 = input('You\'ve come to a glowing lake. There is an misty island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
   if choice2 == "wait":
     choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
     if choice3 == "red":
@@ -37,12 +37,12 @@ if choice1 == "left":
     elif choice3 == "blue":
       print("You enter a room of passionet wearwolfs. I'll leave the rest to your imagination. Game Over.")
     else:
-      print("You chose a door that doesn't exist. Your stuck here forever. Game Over.")
+      print("You chose a door that doesn't exist. Your now under a strange spell and stuck here forever. Game Over.")
   else:
     print("You meet a lonely merman who seduces you. You are now a merman and live in the lake with him. Game Over.")
 elif choice1 == "right":
-    print("You fell into a hole and met a beautiful drow prince. You fell in love and live in him underground kingdom for 1000 years. Game Over.")
+    print("You fell into a hole and met a beautiful drow prince. You fell in love and live in his underground kingdom for 1000 years. Game Over.")
 else:
-    print("you met a cute satyr, fell in love and stayed in his forest forever! You are now magical!")
+    print("you met a cute satyr, fell in love and stayed in his forest forever! You are now magical and can frolic all day and night!")
 
 
