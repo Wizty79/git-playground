@@ -33,15 +33,15 @@ if choice1 == "left":
     if choice3 == "red":
       print("You find a book that's cursed, you can't stop reading the book and it never ends. Game Over.")
     elif choice3 == "yellow":
-      print("You found the treasure! You Win!")
+      print("You found the treasure! But also a powerul spellbook! Your now an apprentice witch and more adventures awaite. You Win!")
     elif choice3 == "blue":
-      print("You enter a room of beasts. Game Over.")
+      print("You enter a room of passionet wearwolfs. I'll leave the rest to your imagination. Game Over.")
     else:
       print("You chose a door that doesn't exist. Your stuck here forever. Game Over.")
   else:
     print("You meet a lonely merman who seduces you. You are now a merman and live in the lake with him. Game Over.")
 elif choice1 == "right":
-    print("You fell into a hole. Game Over.")
+    print("You fell into a hole and met a beautiful drow prince. You fell in love and live in him underground kingdom for 1000 years. Game Over.")
 else:
     print("you met a cute satyr, fell in love and stayed in his forest forever! You are now magical!")
 
