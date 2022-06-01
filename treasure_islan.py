@@ -31,7 +31,7 @@ if choice1 == "left":
   if choice2 == "wait":
     choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
     if choice3 == "red":
-      print("It's a room full of fire. Game Over.")
+      print("You find a book that's cursed, you can't stop reading the book and it never ends. Game Over.")
     elif choice3 == "yellow":
       print("You found the treasure! You Win!")
     elif choice3 == "blue":
@@ -39,7 +39,7 @@ if choice1 == "left":
     else:
       print("You chose a door that doesn't exist. Your stuck here forever. Game Over.")
   else:
-    print("You get attacked by a lonely merman who seduces you. You are now a merman and live in the lake. Game Over.")
+    print("You meet a lonely merman who seduces you. You are now a merman and live in the lake with him. Game Over.")
 elif choice1 == "right":
     print("You fell into a hole. Game Over.")
 else:
