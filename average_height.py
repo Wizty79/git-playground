@@ -9,7 +9,7 @@ for n in range(0, len(student_heights)):
 
 total_height = 0
 for height in student_heights:
-  total_height += total_height
+  total_height += height
 print(f"total height = {total_height}")
 
 number_of_students = 0
