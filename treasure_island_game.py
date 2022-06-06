@@ -31,7 +31,7 @@ if choice1 == "left":
     if choice3 == "red":
       print("You find a book that's cursed, you can't stop reading the book and it never ends. Game Over.")
     elif choice3 == "yellow":
-      print("You found the treasure! But also a powerul spellbook! Your now an apprentice witch and more adventures awaite. You Win!")
+      print("You found the treasure! But also a poweful spellbook! Your now an apprentice witch and more adventures awaite. You Win!")
     elif choice3 == "blue":
       print("You enter a room of passionet young wearwolfs. I'll leave the rest to your imagination, wink wink. Game Over.")
     else:
