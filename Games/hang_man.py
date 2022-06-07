@@ -35,6 +35,7 @@ while not game_is_finished:
         if lives == 0:
             game_is_finished = True
             print("You lose.")
+            print('The word was {}'.format(chosen_word))
     
     if not "_" in display:
         game_is_finished = True
