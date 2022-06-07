@@ -40,10 +40,10 @@ if __name__ == '__main__':
             if not guess.isalpha():
                 print('Enter only a LETTER')
                 continue
-            else if len(guess) > 1:
+            elif len(guess) > 1:
                 print('Enter only a SINGLE letter')
                 continue
-            else if guess in letterGuessed:
+            elif guess in letterGuessed:
                 print('You have already guessed that letter')
                 continue
  
@@ -60,7 +60,7 @@ if __name__ == '__main__':
                     print(char, end = ' ')
                     correct += 1
                 # If user has guessed all the letters
-                else if (Counter(letterGuessed) == Counter(word)): # Once the correct word is guessed fully,
+                elif (Counter(letterGuessed) == Counter(word)): # Once the correct word is guessed fully,
                                                                 # the game ends, even if chances remain
                     print("The word is: ", end=' ')
                     print(word)
