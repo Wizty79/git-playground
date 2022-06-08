@@ -18,3 +18,5 @@ def greet_with(name, location):#adding more then 1 parameter by using ,
 
 greet_with("Wisti", "Bournemouth")
 
+greet_with(location="Bournemouth", name="Wisti") #both function calls do the same job, but the latter simply specify position and the first make sure to provide the arguments in the right order
+
