@@ -11,9 +11,24 @@ travel_log = {
     "Denmark": ["Viborg", "Kobenhavn", "Herning"]
 }
 
-#Nesting a Dictionary in a DIctionary
+#Nesting a Dictionary in a Dictionary
 travel_log_b = {
     "France": {"cities_visited":["Paris", "Lille", "Dijon"], "total_visits": 12}, 
     "Denmark": {"cities_visited":["Viborg", "Kobenhavn", "Herning"], "total_visits": 5},
 }
+
+#Nesting a Dictionary inside a list
+
+travel_log_c = [
+    {
+        "country": "France", 
+        "cities_visited": ["Paris", "Lille", "Dijon"], 
+        "total_visits": 12, 
+    },    
+    {    
+        "country": "Denmark", 
+        "cities_visited": ["Viborg", "Kobenhavn", "Herning"], 
+        "total_visits": 5,
+    }
+]
 
