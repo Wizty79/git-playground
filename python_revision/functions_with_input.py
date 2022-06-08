@@ -10,3 +10,11 @@ def greet_with_name(name): #here name is a variable, but it's often refered to a
 
 greet_with_name("Wisti") #here we are giving that same variable a value called "Wisti", but it's often referd to as the argument
 
+#functions with more than one input
+
+def greet_with(name, location):#adding more then 1 parameter by using ,
+  print(f"Hello {name}")
+  print(f"What is it like in {location}?")
+
+greet_with("Wisti", "Bournemouth")
+
