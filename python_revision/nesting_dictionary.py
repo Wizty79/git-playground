@@ -34,7 +34,7 @@ travel_log_c = [
 
 #Nesting a Dictionary in a Dictionary and a funtion to add to this
 
-travel_log = [
+travel_log_d = [
 {
   "country": "France",
   "visits": 12,
@@ -51,7 +51,7 @@ def add_new_country(country_visited, times_visited, cities_visited):
   new_country["country"] = country_visited
   new_country["visits"] = times_visited
   new_country["cities"] = cities_visited
-  travel_log.append(new_country)
+  travel_log_d.append(new_country)
 
 add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 print(travel_log)
