@@ -22,8 +22,8 @@ travel_log_b = {
 travel_log_c = [
     {
         "country": "France", 
-        "cities_visited": ["Paris", "Lille", "Dijon"], 
-        "total_visits": 12, 
+        "cities_visited": ["Paris", "Lille", "Dijon"], #if calling on cities visited be aware this is a list
+        "total_visits": 12, #if calling in total visits be aware this is a interger
     },    
     {    
         "country": "Denmark", 
