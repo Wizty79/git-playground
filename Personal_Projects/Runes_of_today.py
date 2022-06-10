@@ -11,9 +11,9 @@ first_choide = input("Skriv 'j' for at se dine runer og 'n' for at vaelge fra: "
 if first_choide == "j":
     nr_runes = int(input(f"Hvor mange Runer wil du gerne se i dag?\n"))
     number_of_runes = nr_runes
-    number_of_runes.select_runes()
+    select_runes(number_of_runes)
     
-    print(f"Dette er rune Runer for i dag:" + {nr_runes})
+    print(f"Dette er dine Runer for i dag:" + {select_runes})
     
 
 
