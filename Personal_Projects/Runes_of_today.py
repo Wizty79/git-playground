@@ -20,6 +20,3 @@ elif print("Kan du have en god dag"):
 
 
 #    rune.choice.append(draw_runes()) 
-#elif:
-#    is_divination_over = True
-
