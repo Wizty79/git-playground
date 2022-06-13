@@ -16,7 +16,4 @@ if first_choice == "j":
     rune_selection = select_runes(number_of_runes) 
     print(rune_selection)
     
-elif print("Kan du have en god dag"):
-
-
-#    rune.choice.append(draw_runes())
+#elif print("Kan du have en god dag")
