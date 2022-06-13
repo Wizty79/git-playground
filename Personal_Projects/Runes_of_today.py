@@ -9,7 +9,7 @@ print("Velkommen til dine runer for i dag")
 
 first_choice = input("Skriv 'j' for at se dine runer og 'n' for at vaelge fra: ")
 if first_choice == "j":
-    second_choice = int(input(f"Hvor mange Runer wil du gerne se i dag? vaelge '1', '2', '3', '4', eller '5'\n"))
+    second_choice = int(input(f"Hvor mange Runer wil du gerne se i dag?\n"))
     #rune_selection = for _ in range(number_of_runes.select_runes()):
     #rune_selection = for nr_runes in range(select_runes)
     number_of_runes = second_choice
