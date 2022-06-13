@@ -1,8 +1,8 @@
 The_futhark_one = """
-|/   |\   |       |\ |\  |/   /
-|/   | |  |>      |\ |/  |   /
-|    |    |       |  |\  |   \
-fa   ur   thorn  os  rit kaun \
+|/   |\   |       |\ |\      /
+|/   | |  |>      |\ |/     /
+|    |    |       |  |\     \
+fa   ur   thorn  os  rit kaun\
 
 \|/     \|   |   |   /   /|\
  X       |   |   |   \    |
@@ -14,6 +14,199 @@ hagalas  not is ar  sol  tyr
 |/   |    |   /|\  /|    /\
 bar laf  man  yr   eh   odal
 """
+
+letter_f = """
+|/
+|/ 
+|
+"""
+
+letter_u = """
+
+|\
+| |
+|
+"""
+
+letter_th = """
+
+|
+|>
+|
+"""
+
+letter_a = """
+|\
+|\
+|
+"""
+
+letter_r = """ 
+|\
+|/
+|\
+"""
+
+letter_k = """
+ /
+/
+\
+ \
+"""
+
+letter_g = """
+
+\ /
+ x
+/ \
+"""
+
+letter_w = """.
+
+|\
+|/
+|
+
+"""
+
+letter_h = """
+
+| |
+|\|  
+| | 
+
+"""
+
+letter_n = """
+
+\|
+ |
+ |\
+
+"""
+letter_i = """
+
+|
+|
+|
+
+"""
+
+letter_j = """ 
+
+ /
+/  \
+\   \
+ \  /
+   /
+"""
+
+letter_ii = """ 
+
+  |\
+  |
+ \|
+
+"""
+
+letter_p = """ 
+
+|\/
+|
+|/\
+
+"""
+
+letter_elg = """.git/
+
+\|/
+ |
+ |
+
+"""
+
+letter_s = """ 
+
+ /
+ \
+ /
+
+"""
+
+letter_t = """ 
+
+/|\
+ |
+ |
+"""
+
+letter_b = """
+
+|\
+|/
+|\
+|/
+
+"""
+
+letter_e = """
+
+|\  /|
+| \/ |
+|    |
+
+"""
+
+letter_m = """
+
+|\    /|
+| \  / |
+|  \/  |
+|  /\  |  
+| /  \ |
+|/    \|
+|      |
+|      |
+
+"""
+
+letter_l = """ 
+
+|\
+| \
+|
+|
+
+"""
+
+letter_ing = """ 
+
+ /\
+ \/
+
+"""
+
+letter_odal = """ 
+
+  /\
+  \/
+  /\
+  
+"""
+
+
+letter_d = """
+
+|\    /|
+| \  / |
+|  \/  |
+|  /\  |  
+| /  \ |
+|/    \|
+
+"""
+
+
 The_futhark_two = """
     |\    Uraz             \/     Gebo           |\   Eihwaz
     | | (Strength)         /\  (Partnership)    \|   (Defence)
