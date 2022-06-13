@@ -15,3 +15,4 @@ if first_choice == "j":
     print(rune_selection)
     
 #elif print("Kan du have en god dag")
+
