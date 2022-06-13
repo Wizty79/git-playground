@@ -15,7 +15,7 @@ hagalas  not is ar  sol  tyr
 bar laf  man  yr   eh   odal
 """
 
-letter_f = """
+letter_fehu = """
 |/
 |/ 
 |
@@ -23,7 +23,7 @@ kvaeg, penge sager, seksuel lidenskab
 
 """
 
-letter_u = """
+letter_uruz = """
 
 |\
 | |
@@ -31,40 +31,40 @@ letter_u = """
 
 """
 
-letter_th = """
+letter_thurisaz = """
 
 |
 |>
 |
 """
 
-letter_a = """
+letter_ansur = """
 |\
 |\
 |
 """
 
-letter_r = """ 
+letter_raido = """ 
 |\
 |/
 |\
 """
 
-letter_k = """
+letter_kauna = """
  /
 /
 \
  \
 """
 
-letter_g = """
+letter_gebo = """
 
 \ /
  x
 / \
 """
 
-letter_w = """.
+letter_wunjo = """.
 
 |\
 |/
@@ -72,7 +72,7 @@ letter_w = """.
 
 """
 
-letter_h = """
+letter_hagalaz = """
 
 | |
 |\|  
@@ -80,14 +80,14 @@ letter_h = """
 
 """
 
-letter_n = """
+letter_naudir = """
 
 \|
  |
  |\
 
 """
-letter_i = """
+letter_isar = """
 
 |
 |
@@ -95,7 +95,7 @@ letter_i = """
 
 """
 
-letter_j = """ 
+letter_jara = """ 
 
  /
 /  \
@@ -104,7 +104,7 @@ letter_j = """
    /
 """
 
-letter_ii = """ 
+letter_ihwar = """ 
 
   |\
   |
@@ -112,7 +112,7 @@ letter_ii = """
 
 """
 
-letter_p = """ 
+letter_pertho = """ 
 
 |\/
 |
@@ -120,7 +120,7 @@ letter_p = """
 
 """
 
-letter_elg = """.git/
+letter_algir = """
 
 \|/
  |
@@ -128,7 +128,7 @@ letter_elg = """.git/
 
 """
 
-letter_s = """ 
+letter_soweku = """ 
 
  /
  \
@@ -136,14 +136,14 @@ letter_s = """
 
 """
 
-letter_t = """ 
+letter_tyr = """ 
 
 /|\
  |
  |
 """
 
-letter_b = """
+letter_berkana = """
 
 |\
 |/
@@ -152,7 +152,7 @@ letter_b = """
 
 """
 
-letter_e = """
+letter_ehwas = """
 
 |\  /|
 | \/ |
@@ -160,7 +160,7 @@ letter_e = """
 
 """
 
-letter_m = """
+letter_mannaz = """
 
 |\    /|
 | \  / |
@@ -173,7 +173,7 @@ letter_m = """
 
 """
 
-letter_l = """ 
+letter_laguz = """ 
 
 |\
 | \
@@ -182,14 +182,14 @@ letter_l = """
 
 """
 
-letter_ing = """ 
+letter_ingwar = """ 
 
  /\
  \/
 
 """
 
-letter_odal = """ 
+letter_odila = """ 
 
   /\
   \/
@@ -198,7 +198,7 @@ letter_odal = """
 """
 
 
-letter_d = """
+letter_dag = """
 
 |\    /|
 | \  / |
