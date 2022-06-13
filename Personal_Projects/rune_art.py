@@ -1,8 +1,8 @@
 The_futhark_one = """
-|    |\   |      /|  |\  |/
-|/   | |  |>     /|  |/  |
-|/   |    |       |  |\  |
-fa   ur   thorn  os  rit kaun
+|/   |\   |       |\ |\  |/   /
+|/   | |  |>      |\ |/  |   /
+|    |    |       |  |\  |   \
+fa   ur   thorn  os  rit kaun \
 
 \|/     \|   |   |   /   /|\
  X       |   |   |   \    |
