@@ -15,5 +15,6 @@ if first_choice == "j":
         rune_selection.append(random.choice(rune_list)) 
     print(rune_selection)
     
-#elif print("Kan du have en god dag")
+#else print("Kan du have en god dag")
 
+#go back and review the password_generator lesson as thos hold the key I was missing and did not understand. 
