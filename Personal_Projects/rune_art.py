@@ -19,6 +19,8 @@ letter_f = """
 |/
 |/ 
 |
+kvaeg, penge sager, seksuel lidenskab
+
 """
 
 letter_u = """
@@ -26,6 +28,7 @@ letter_u = """
 |\
 | |
 |
+
 """
 
 letter_th = """
