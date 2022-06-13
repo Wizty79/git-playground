@@ -16,6 +16,7 @@ if first_choice == "j":
     number_of_runes = second_choice
     #rune_selection = select_runes(number_of_runes) # maybe use the  * operator? but how!!
     rune_selection = number_of_runes * select_runes()
+    #print (number_of_runes*select_runes())
     print(rune_selection)
     
 #elif print("Kan du have en god dag")
