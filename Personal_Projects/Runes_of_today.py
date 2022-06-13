@@ -13,7 +13,7 @@ if first_choice == "j":
     #rune_selection = for _ in range(nr_runes.select_runes()):
     #rune_selection = for nr_runes in range(select_runes)
     number_of_runes = second_choice
-    rune_selection = select_runes(number_of_runes) 
+    rune_selection = select_runes (number_of_runes) 
     print(rune_selection)
     
 #elif print("Kan du have en god dag")
