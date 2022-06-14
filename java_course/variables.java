@@ -5,6 +5,4 @@ public class variables {
         int passengers = 20;
         System.out.println();
     }
-
-
 }
