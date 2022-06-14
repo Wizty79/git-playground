@@ -1,6 +1,7 @@
+package java_course;
+
 public class HelloJava {
-    public static void main(String[] args) {  //entrypoint
-        system.out.prtintln("Hello Java")
-    }    
-    
+    public static void main(String[] args) {
+        System.out.println("Hello Java");
+    }
 }
