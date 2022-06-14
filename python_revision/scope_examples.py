@@ -41,3 +41,7 @@ increase_enemies()
 print(f"enemies outside function: {enemies}")
 
 
+def increase_enemies_two():
+  print(f"enemies inside function: {enemies}")
+  return enemies + 1 #however we should avoid modifying a global scope, instead we can add the return statement with a + 1 to get the same result  
+
