@@ -30,3 +30,14 @@ def drink_potion():
 #here we can use the variable player_healt due to its potision
 #it's in the global scope, and not locked inside the function. 
   
+enemies = 1
+
+def increase_enemies():
+  global enemies
+  enemies += 2 # however we can't modify the variable enemies until we've declared it in the function as a global vartiable, without that, it would fail
+  print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+
+
