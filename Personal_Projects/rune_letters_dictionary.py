@@ -1,5 +1,5 @@
 
-rune_row_ = { 
+rune_row = { 
 
         "letter_fehu": { 
             """
