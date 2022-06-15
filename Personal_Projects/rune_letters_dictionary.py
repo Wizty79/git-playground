@@ -18,7 +18,7 @@ rune_row_ = {
             |\
             | |
             |
-
+            ur oksen, langsom udvikling, styrker,
 
             """
         },
