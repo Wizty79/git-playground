@@ -35,34 +35,46 @@ rune_row_ = {
         
         "letter_ansur": {  
         
-        """
-        |\
-        |\
-        |
-        """
+            """
+            |\
+            |\
+            |
+            """
         
         },
         
 
-        letter_raido = """ 
-        |\
-        |/
-        |\
+        "letter_raido": {  
+        
+            """ 
+            |\
+            |/
+            |\
+            """
+        
+        },
+        
+        "letter_kauna": { 
+        
         """
-
-        letter_kauna = """
-        /
-        /
-        \
-        \
+            /
+           /
+           \
+            \
+        
         """
+        
+        },
 
-        letter_gebo = """
-
-        \ /
-        x
-        / \
+        "letter_gebo": { 
+        
         """
+            \ /
+             x
+            / \
+        """
+        
+        },
 
         letter_wunjo = """.
 
