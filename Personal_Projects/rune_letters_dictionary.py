@@ -76,53 +76,69 @@ rune_row_ = {
         
         },
 
-        letter_wunjo = """.
-
-        |\
-        |/
-        |
+       "letter_wunjo": {  
+        
+        """
+            |\
+            |/
+            |
 
         """
+        },
 
-        letter_hagalaz = """
-
+        "letter_hagalaz": {  
+        
+        """
         | |
         |\|  
         | | 
 
         """
-
-        letter_naudir = """
-
-        \|
-        |
-        |\
-
-        """
-        letter_isar = """
-
-        |
-        |
-        |
-
+        },
+        
+        "letter_naudir": { 
+        
         """
 
-        letter_jara = """ 
-
-        /
-        /  \
-        \   \
-        \  /
-        /
+         \|
+          |
+          |\
+        
+        """
+        },
+        
+        "letter_isar": {  
+        
         """
 
-        letter_ihwar = """ 
-
-        |\
         |
-        \|
+        |
+        |
 
         """
+        },
+        
+        "letter_jara": {  
+        
+        """ 
+          /
+         /  \
+         \   \
+          \  /
+            /
+        """
+        }, 
+        
+        "letter_ihwar": {  
+        
+        """ 
+
+          |\
+          |
+         \|
+
+        """
+        },
 
         letter_pertho = """ 
 
