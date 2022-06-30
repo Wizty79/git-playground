@@ -1,122 +1,102 @@
 
-rune_row = [ 
+rune_row = [''' 
 
-        "letter_fehu": { 
-            """
+        letter_fehu:  
+            
             |/
             |/ 
             |
             kvaeg, penge sager, seksuel lidenskab
 
-            """
-        },
+            
+        ''', '''
         
-        "letter_uruz": {  
+        letter_uruz 
         
-            """
-
             |\
             | |
             |
             ur oksen, langsom udvikling, styrker,
-
-            """
-        },
+            
+        ''', '''
         
-        "letter_thurisaz": {
+        letter_thurisaz
         
-            """
             |
             |>
             |
-            """
         
-        },
+                
+        ''', '''
         
-        "letter_ansur": {  
+        letter_ansur  
         
-            """
             |\
             |\
             |
-            """
-        
-        },
+            
+        ''', '''
         
 
-        "letter_raido": {  
-        
-            """ 
+        letter_raido  
+                
             |\
             |/
             |\
-            """
         
-        },
         
-        "letter_kauna": { 
+        ''', '''
         
-        """
+        letter_kauna 
+                
             /
            /
            \
             \
-        
-        """
-        
-        },
+                
+        ''', '''
 
-        "letter_gebo": { 
-        
-        """
+        letter_gebo 
+                
             \ /
              x
             / \
-        """
-        
-        },
+                
+        ''', '''
 
-       "letter_wunjo": {  
-        
-        """
+       letter_wunjo  
+                
             |\
             |/
             |
-
-        """
-        },
-
-        "letter_hagalaz": {  
         
-        """
+        ''', '''
+
+        letter_hagalaz  
+                
         | |
         |\|  
         | | 
-
-        """
-        },
         
-        "letter_naudir": { 
+        ''', '''
         
-        """
+        letter_naudir 
+                
 
          \|
           |
           |\
         
-        """
-        },
+        ''', '''
         
-        "letter_isar": {  
+        letter_isar  
         
-        """
-
         |
         |
         |
 
-        """
-        },
+        
+        ''', '''
         
         "letter_jara": {  
         
@@ -267,4 +247,4 @@ rune_row = [
 
         """
         },
-]
+''']
