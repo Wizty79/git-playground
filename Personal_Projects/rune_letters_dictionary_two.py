@@ -98,98 +98,76 @@ rune_row = ['''
         
         ''', '''
         
-        "letter_jara": {  
-        
-        """ 
+        letter_jara  
+               
           /
          /  \
          \   \
           \  /
             /
-        """
-        }, 
         
-        "letter_ihwar": {  
+        ''', ''' 
         
-        """ 
+        letter_ihwar  
+                
 
           |\
           |
          \|
+        
+        ''', '''
 
-        """
-        },
-
-        "letter_pertho": { 
-            
-        """ 
-
+        letter_pertho 
+        
             |\/
             |
             |/\
+                
+        ''', '''
 
-        """
-        },
-
-        "letter_algir": { 
-            
-        """
-
+        letter_algir 
+        
             \|/
              |
              |
-
-        """
-        },
         
-        "letter_soweku": { 
-            
-        """ 
-
+        ''', '''
+        
+        letter_soweku 
+                
         /
         \
         /
 
-        """
-        }, 
+        ''', ''' 
         
-        "letter_tyr": { 
-            
-        """ 
-
+        letter_tyr 
+        
             /|\
              |
              |
-        """
-        },
         
-        "letter_berkana": {  
+        ''', '''
         
-        """
-
+        letter_berkana  
+        
             |\
             |/
             |\
             |/
-
-        """
-        },
         
-        "letter_ehwas": {  
+        ''', '''
+        
+        letter_ehwas 
             
-        """
-
             |\  /|
             | \/ |
             |    |
-
-        """
-        },
         
-        "letter_mannaz": { 
+        ''', '''
+        
+        letter_mannaz 
             
-        """
-
             |\    /|
             | \  / |
             |  \/  |
@@ -198,53 +176,43 @@ rune_row = ['''
             |/    \|
             |      |
             |      |
-
-        """
-        },
-        "letter_laguz": { 
-            
-        """ 
-
+        
+        ''', '''
+        
+        letter_laguz 
+        
             |\
             | \
             |
             |
-
-        """
-        },
         
-        "letter_ingwar": { 
+        ''', '''
         
-        """ 
-
+        letter_ingwar 
+        
             /\
             \/
 
-        """
-        },
         
-        "letter_odila": {  
+        ''', '''
         
-        """ 
-
+        letter_odila  
+        
             /\
             \/
             /\
         
-        """
-        }, 
-
-        "letter_dag": { 
         
-        """
+        ''', ''' 
 
+        letter_dag 
+        
             |\    /|
             | \  / |
             |  \/  |
             |  /\  |  
             | /  \ |
             |/    \|
-
-        """
-        },
+        
+        ''', '''
 ''']
