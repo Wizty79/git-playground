@@ -15,7 +15,7 @@ if first_choice == "j":
     rune_selection = []
     
     for char in range(1, second_choice + 1):
-        rune_selection.append(random.choice(rune_list)) 
+        rune_selection.append(random.choice(rune_list_two)) 
     print(rune_selection)
     
 else: 
