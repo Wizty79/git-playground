@@ -48,17 +48,17 @@ rune_letter_five = """        letter_raido
 rune_letter_six = """
 letter_kauna 
 
-/
+ /
 /
 \
-\
+ \
 
 """
 rune_letter_seven = """
 letter_gebo 
 
 \ /
-x
+ x
 / \
 
 """
@@ -83,8 +83,8 @@ letter_naudir
 
 
 \|
-|
-|\
+ |
+ |\
 
 """
 rune_letter_eleven = """
@@ -99,19 +99,19 @@ letter_isar
 rune_letter_twelve = """
 letter_jara  
 
-/
+ /
 /  \
 \   \
-\  /
-/
+ \  /
+   /
 
 """ 
 rune_letter_thirteen = """
 letter_ihwar  
 
 
-|\
-|
+ |\
+ |
 \|
 
 """
@@ -127,8 +127,8 @@ rune_letter_fiveteen = """
 letter_algir 
 
 \|/
-|
-|
+ |
+ |
 
 """
 rune_letter_sixteen = """
@@ -143,8 +143,8 @@ rune_letter_seventeen = """
 letter_tyr 
 
 /|\
-|
-|
+ |
+ |
 
 """
 rune_letter_eighteen = """
