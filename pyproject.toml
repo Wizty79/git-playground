@@ -1,10 +1,13 @@
 [tool.poetry]
-name = "todo-app"
+name = "Python PlayGround"
 version = "0.1.0"
-description = "A simple ToDo app for your DevOps apprenticeship"
+description = "Random Python apps and functions"
 authors = []
 
 [tool.poetry.dependencies]
+python = "^3.7"
+flask = "^2.2.3"
+requests = "^2.28.2"
 
 
 
